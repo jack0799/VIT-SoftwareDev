@@ -174,6 +174,11 @@ class test{
                 }
 
                 chance=2;
+                for(int i=0;i<5;i++){
+                    for(int j=0;j<5;j++)
+                    System.out.print(board[i][j]+" ");
+                    System.out.println();
+                }
             }
             else if(chance==2){
                 System.out.println("Player 2 enter your move");
@@ -295,13 +300,14 @@ class test{
                     continue;
                 }
                 chance=1;
+                for(int i=4;i>=0;i--){
+                    for(int j=4;j>=0;j--)
+                    System.out.print(board[i][j]+" ");
+                    System.out.println();
+                }
 
             }
-            for(int i=0;i<5;i++){
-                for(int j=0;j<5;j++)
-                System.out.print(board[i][j]+" ");
-                System.out.println();
-            }
+            
             if(Apoints==0||Bpoints==0){
                 break;
             }
