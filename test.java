@@ -186,7 +186,7 @@ class test{
                 char a=move.charAt(3);
                 int []position=new int[1];
                 position=pos(move,"B",board);
-                System.out.println(Arrays.toString(position));
+                //System.out.println(Arrays.toString(position));
                 if(a=='R'){
                     if(position[1]==4){
                         System.out.println("Cannot move to right as it is outside the board");
